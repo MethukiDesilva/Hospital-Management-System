@@ -1,10 +1,10 @@
-🏥 Hospital Management System
+# 🏥 Hospital Management System 
 
 A desktop-based Hospital Management System (HMS) developed using C# Windows Forms and Microsoft SQL Server as the Final Project for the L3 Diploma in Information Technology at ESOFT Metro Campus.
 
 The system is designed to digitize and simplify common hospital operations by providing a centralized platform for managing patients, doctors, appointments, medical records, and pharmacy information.
 
-📖 About the Project
+# 📖 About the Project
 
 Hospitals handle a large amount of information every day, and managing these records manually can be time-consuming and difficult to maintain.
 
