@@ -6,8 +6,13 @@ A desktop Hospital Management System built with C# Windows Forms and Microsoft S
 
 A Hospital Management System (HMS) is software designed to manage and organize hospital activities digitally — replacing manual paperwork with a centralized, searchable system for patient records, doctor information, appointments, medical records, and pharmacy stock.
 
+
 ## 🕹️ Features / Modules
 Login System — secure username/password authentication with error handling for invalid credentials
+<img width="439" height="231" alt="image" src="https://github.com/user-attachments/assets/9edd0a0c-ac15-44f3-a738-03935e908f96" />
+
+<img width="486" height="283" alt="image" src="https://github.com/user-attachments/assets/336f7451-1b06-4a9c-8be6-bf1e46e4deee" />
+
 Doctor Management — insert, update, delete, and search doctor records (ID, name, specialization, phone number, gender)
 Patient Management — manage patient records (ID, name, age, gender, address)
 Appointment Details — track patient appointments with doctor name, date, appointment number, and fees
