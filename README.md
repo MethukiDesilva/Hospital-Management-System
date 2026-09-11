@@ -1,45 +1,100 @@
-# Hospital Management System 🏥
+🏥 Hospital Management System
 
-A desktop Hospital Management System built with C# Windows Forms and Microsoft SQL Server, developed as a Final Project for the L3 Diploma in Information Technology at ESOFT Metro Campus.
+A desktop-based Hospital Management System (HMS) developed using C# Windows Forms and Microsoft SQL Server as the Final Project for the L3 Diploma in Information Technology at ESOFT Metro Campus.
 
-## 📖 About
+The system is designed to digitize and simplify common hospital operations by providing a centralized platform for managing patients, doctors, appointments, medical records, and pharmacy information.
 
-A Hospital Management System (HMS) is software designed to manage and organize hospital activities digitally — replacing manual paperwork with a centralized, searchable system for patient records, doctor information, appointments, medical records, and pharmacy stock.
+📖 About the Project
+
+Hospitals handle a large amount of information every day, and managing these records manually can be time-consuming and difficult to maintain.
+
+This Hospital Management System provides a computerized solution that allows hospital staff to store, update, search, and manage important information through a user-friendly desktop application.
+
+## 🗃️ CRUD Operations
+
+The main management modules support standard CRUD operations:
+
+Operation	Description
+Create	Insert new records
+Read	Search and view existing records
+Update	Modify existing information
+Delete	Remove records
+Reset	Clear input fields
+
+Confirmation and error message boxes are also used to provide feedback to the user, such as:
+
+"Data successfully inserted"
+
+## 🛠️ Technologies Used
+Technology	Purpose
+C#	Application programming language
+Windows Forms	Desktop application user interface
+Microsoft SQL Server	Database management
+Microsoft Visual Studio	Development environment
+.NET	Application framework
 
 
-## 🕹️ Features / Modules
-Login System — secure username/password authentication with error handling for invalid credentials
-<img width="439" height="231" alt="image" src="https://github.com/user-attachments/assets/9edd0a0c-ac15-44f3-a738-03935e908f96" />
+📸 Screenshots
+🔐 Login
 
-<img width="486" height="283" alt="image" src="https://github.com/user-attachments/assets/336f7451-1b06-4a9c-8be6-bf1e46e4deee" />
+<img width="444" height="230" alt="image" src="https://github.com/user-attachments/assets/90d6d7d1-8685-4cd5-8b78-f6bce13bb86f" />
 
-Doctor Management — insert, update, delete, and search doctor records (ID, name, specialization, phone number, gender)
-Patient Management — manage patient records (ID, name, age, gender, address)
-Appointment Details — track patient appointments with doctor name, date, appointment number, and fees
-Medical Record Management — store patient symptoms, blood group, and other medical details
-Pharmacy Management — track medicine stock, category, selling price, purchase price, and quantity sold
-Dashboard — live overview showing total number of patients, doctors, and appointments
-CRUD Operations — every module supports Insert, Update, Delete, Search, and Reset, each with confirmation message boxes (e.g. "Data successfully inserted")
-## 🛠️ Built With
-Language: C# (.NET, Windows Forms)
-Database: Microsoft SQL Server
-IDE: Microsoft Visual Studio
+Menu
 
-## 🗂️ Database Tables
-patient — patientid, patientname, patientage, patientgender, patientaddress
-doctor — doctorid, doctorname, doctorspecialisation, doctornumber, gender
-appointmentdetails — patientid, patientage, doctorname, date, appointmentnumber, appointmentfee
-medicalrecord — patientid, patientname, patientage, symptoms, bloodgroup, gender
-pharmacy — medid, category, sellingprice, purchaseprice, stocklevel, quantitysold
-## 🚀 Getting Started
-Clone or download this repository
-Open the .sln file in Visual Studio
-Restore/attach the SQL Server database used by the project (see the connection string in the source code)
-Build and run the solution (F5)
-Log in with valid credentials to access the main menu (Doctor, Patient, Appointment, Medical Record, Pharmacy, Dashboard)
-📐 Use Case Overview
-Customer Service — manages patient info, doctor info, appointment details, and views the dashboard
-Doctor — manages medical record details
-Pharmacy — manages pharmacy/medicine details
-<img width="622" height="603" alt="image" src="https://github.com/user-attachments/assets/01298e44-ef1e-422e-b853-c3b4a194f604" />
+<img width="486" height="283" alt="image" src="https://github.com/user-attachments/assets/206741a6-4b6b-4015-b40e-9fefc0586960" />
 
+📊 Dashboard
+
+<img width="396" height="268" alt="image" src="https://github.com/user-attachments/assets/c2582ef4-2568-4ad9-8c9c-816a61d781df" />
+
+👨‍⚕️ Doctor Management
+
+<img width="498" height="294" alt="image" src="https://github.com/user-attachments/assets/a9c313fc-e881-4aaa-880c-9f70ecead91f" />
+
+
+
+📅 Appointment Management
+
+<img width="420" height="276" alt="image" src="https://github.com/user-attachments/assets/f8d6c42f-e3c2-4bf6-b62f-723f21377c2d" />
+
+
+
+## 📁 Project Structure
+
+A typical structure of the project is:
+
+HospitalManagementSystem/
+│
+├── HospitalManagementSystem.sln
+├── HospitalManagementSystem/
+│   ├── Forms/
+│   ├── Models/
+│   ├── Database/
+│   ├── Resources/
+│   └── Program.cs
+│
+└── README.md
+
+The exact structure may vary depending on how the Visual Studio project is organized.
+
+## 🎓 Academic Project
+
+This project was developed as a Final Project for the L3 Diploma in Information Technology at ESOFT Metro Campus.
+
+The project demonstrates practical experience in:
+
+C# programming
+Windows Forms development
+Database design and SQL Server
+CRUD operations
+User authentication
+Form-based application development
+Database connectivity
+Basic role-based system functionality
+User interface design
+## 👩‍💻 Author
+
+Methuki De Silva
+
+L3 Diploma in Information Technology
+ESOFT Metro Campus
